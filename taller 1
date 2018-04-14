@@ -1,0 +1,13 @@
+set.seed(1:100)
+x <- c(rnorm(10, mean=0, sd=0.1),45,66.85,98)
+hist(x)
+which(x %in% y$out)
+filtro <- x %in% y $out;filtro
+(ind <- which(filtro))
+x[filtro]
+#option 2
+(ind<- which (filtro))
+x[ind]
+EDA(x)
+datos <-c(10,11,10,8,9,10,8,10,7,4,11,9,6,7,7,11,10,11,9,8,10,5,7,3,9,9,7,8,8,9)
+hist(datos)
